@@ -1,0 +1,103 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+
+/* Ustawienie czcionek i koloru tła */
+
+body{
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: oklch(96.7% 0.001 286.375);
+}
+
+/* Ustawienie marginesu wewnętrznego, koloru tła i display:flex dla górnego panelu */
+.navbar{
+    background-color: oklch(29.3% 0.066 243.157);
+    padding:22px;
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+}
+
+.links{
+    margin-left:auto;
+}
+
+/* Ustawienie koloru czcionki dla linków */
+.links a{
+    color:white;
+    text-decoration:none;
+    margin-left: 10px;
+    margin-right:10px;
+}
+/* Podkreślenie jeżeli najedziemy na link */
+.links a:hover{
+    text-decoration: underline;
+}
+.active{
+    font-weight:bold;
+}
+
+
+.container
+{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.front h1{
+    text-align: center;
+}
+
+.mainimg{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-bottom:50px;
+}
+
+.footer
+{
+    background-color: oklch(21% 0.006 285.885);
+    color:white;
+    padding:40px;
+}
+
+
+.description p {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.description li {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.contact-form{
+    margin-bottom:30px;
+}
+
+.contact-form textarea{
+    width:500px;
+    height:200px;
+}
+.contact-side{
+    float:left;
+    width:50%;
+}
+
+.contact-link
+{
+    text-decoration: underline;
+    color:black;
+}
+
+.contact-link:hover{
+    color:#303030;
+}

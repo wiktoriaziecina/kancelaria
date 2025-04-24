@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zięcina Pajewska</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="navbar">
+    <img class="logo" src="images/logo.png" alt="logo">
+
+    </img>
+    <div class="links">
+        <a href="index.html">Strona główna</a>
+        <a href="zastosowaniaai.html">Zastosowania AI</a>
+        <a href="poradyonline.html">Porady Online</a>
+        <a href="kontakt.html" class="active">Kontakt</a>
+    </div>
+    </div>
+    <div class="container">
+        <div class="front">
+            <h1>Kontakt</h1>
+        </div>
+        <form class="contact-form">
+            <label for="name">Imię:</label>
+            <input type="text" placeholder="Imię" name="name">
+            <br/><br/>
+            <label for="surname">Nazwisko:</label>
+            <input type="text" placeholder="Nazwisko" name="surname">
+            <br/><br/>
+            <label for="email">Adres E-mail</label>
+            <input type="text" placeholder="Adres email" name="email">
+            <br/><br/>
+            <label for="case-type">Typ sprawy:</label>
+            <select name="case-type">
+                <option>Wybierz typ sprawy</option>
+                <option>Analiza umowy</option>
+                <option>Obsługa podmiotów gospodarczych</option>
+                <option>Usługi RODO</option>
+                <option>Spory sądowe i arbitraż</option>
+                <option>Bankowość i finanse</option>
+                <option>Nowe technologie IT</option>
+                <option>Prawo pracy i kontrakty menadżerskie</option>
+                <option>Doradztwo prawne dla osób fizycznych</option>
+                <option>Inne</option>
+            </select>
+            <br/><br/>
+            <label for="title">Tytuł:</label>
+            <input type="text" placeholder="Tytuł" name="title">
+            <br/><br/>
+
+            <label for="message">Treść wiadomości:</label>
+            <br/><br/>
+            <textarea type="text" placeholder="Treść wiadomości" name="message">
+
+            </textarea>
+            <br/><br/>
+
+            <input type="checkbox" name="personal-data">
+            
+            <label for="personal-data">Wyrażam zgodę na przetwarzanie moich danych osobowych</label>
+
+            <br/><br/>
+            <input type="submit" value="Wyślij">
+            <input type="reset" value="Wyczyść">
+        </form>
+    </div>
+    <div class="footer">
+        Wszelkie prawa zastrzeżone  2025 © Kancelaria Zięcina Pajewska sp. z o.o. 
+    </div>
+</body>
+</html>
